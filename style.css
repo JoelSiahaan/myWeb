@@ -1,0 +1,19 @@
+body {
+    align-items: center;
+    background-color: turquoise;
+  }
+  h1 {
+    text-align:center;
+    
+  }
+  p {
+    text-align:center;
+  }
+  .profilepicture{
+    border:50%
+  }
+  .class1{
+    text-align:center;
+    align-items:center;
+  }
+  
