@@ -3,12 +3,12 @@ body {
   
   background-color: whitesmoke ;
 }
-
+/*Pengaturan ukuran halaman  */
 section {
   height: 100vh;
 }
 .image-container {
-  /* Center the image */
+  /* Menengahkan gambar */
   display: inline-block;
   border-radius: 10px;
   overflow: hidden;
@@ -73,14 +73,14 @@ p {
   border-radius: 10px;
   
 }
-
+/*Menengahkan posisi teks  */
 .pos_cen {
   width : 75%;
   position: relative;
   left: 10%;
   top: 20%;
 }
-
+/*Pengaturan navbar  */
 .navbar {
 position: fixed;
 top: 0;
@@ -101,11 +101,3 @@ text-decoration: none;
 font-family : calibri;
 }
 
-.about_pg {
-  position: relative;
-  height: 100vh;
-}
-
-.hidden {
-  display: none;
-}
