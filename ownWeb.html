@@ -3,23 +3,64 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
-<title>My Portofolio</title>
+    <script src="script.js"></script>
+
+    <title>Joel Hotlan Haris Siahaan | SPARTAN 2023</title>
+    
+
+    <div class="navbar">
+        <a href="#Home" onclick="changeContent('Home')">Home </a>
+        <a href="#About"onclick="changeContent('About')">About</a>
+        <a href="#Contact"onclick="changeContent('Contact')">Contact</a>
+    </div>
+    
+  
 </head>
 
 <body>
-    <div class="class1">
-        <h1>Profile</h1>
-        <div class="profilepicture">
-            <img src="picture.jpg" alt="Profile Picture" width="104" height="142"  >
+    
+    <section id="Home">
+        <div class="pos_cen">
+            <div class="img_container">
+                <img class="profilepicture" src="newpic.jpg" alt="profile picture" >
+            </div>
+            <h1>Hi, I'm Joel!</h1>
+            <p class = "first">Saya bernama Joel Hotlan Haris Siahaan atau biasa dipanggil Joel. Saya adalah seorang mahasiswa Program Studi Teknik Informatika dari STEI 
+                Institut Teknologi Bandung angkatan 2023. Saat ini, saya sedang mendalami Software Engineering dan Cyber Security.
+            </p>
+            
         </div>
-        <p>Nama : Joel Hotlan Haris Siahaan</p>
-        <p>Jurusan : Teknik Informatika</p>    
-        <p>Deskripsi : Mahasiswa Teknik Informatika semester 3.</p>
-        <p>Minat : Software Engineering</p> 
-         
-        <h2>Proyek  :</h2>
+    </section>
 
-    </div>
+    <section id="About">
+        <div class="pos_cen">
+            <div class="img_container">
+                <img class="aboutpicture" src="aboutpic.jpg" alt="profile picture" >
+            </div>
+            <h2>About Me  :</h2>
+            <p>Nama     : Joel Hotlan Haris Siahaan</p>
+            <p>Jurusan  : Teknik Informatika</p>
+            <p>Minat    : Software Engineering dan Cyber Security</p>
+            <p>Bakat    : Software Engineering</p>
+            <p>Proyek    : </p>
+            <li>
+                <a href="https://github.com/JoelSiahaan/myWeb">Web Profile</a>
+            </li> 
+        </div>
+    </section>
+
+    <section id="Contact" >
+        <div class="pos_cen">
+            <div class="img_container">
+                <img class="contactpicture" src="contactpic.jpg" alt="profile picture" >
+            </div>
+            <h3>Contact  :</h2>
+            <li><a href="https://www.instagram.com/joelhotlan?igsh=bnVqNWI1ZmFpNzRp">Instagram</a></li>
+
+            <li><a href="https://github.com/JoelSiahaan">GitHub</a></li>
+        </div>
+    </section>
+    
 </body>
 </html>
 
